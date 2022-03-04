@@ -1,7 +1,8 @@
 package com.company;
 import java.lang.Math.*;
 public class nft {
-
+	
+     //this is mickey on his Mac
     // Instance Variables
     private String name;
     private String category;
