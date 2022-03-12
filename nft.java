@@ -1,8 +1,7 @@
 package com.company;
 import java.lang.Math.*;
 public class nft {
-	
-     //this is mickey on his Mac
+
     // Instance Variables
     private String name;
     private String category;
@@ -20,10 +19,10 @@ public class nft {
         if (rarity.equals("Common")){ // If the NFT's rarity is common then price can change from 1 - 50
             changePrice = (int)(Math.random() * 50 + 1);
         }
-        else if (rarity.equals("Rare")){ // If the NFT's rarity is rare then price can change from 50 - 250
+        else if (rarity.equals("Epic")){ // If the NFT's rarity is epic then price can change from 50 - 250
             changePrice = (int)(Math.random() * 250 + 50);
         }
-        else if (rarity.equals("Epic")){ // If the NFT's rarity is epic then price can change from 250 - 500
+        else if (rarity.equals("Legendary")){ // If the NFT's rarity is legendary then price can change from 250 - 500
             changePrice = (int)(Math.random() * 500 + 250);
         }
 
