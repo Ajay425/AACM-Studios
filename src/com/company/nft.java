@@ -9,8 +9,16 @@ public class nft {
     private String rarity;
     private int priceOfNFT;
 
-    // Constructor
+    // Constructors
     public nft(){
+    }
+
+    public nft (String name, String category, String imageName, String rarity, int priceOfNFT){
+        this.name = name;
+        this.category = category;
+        this.imageName = imageName;
+        this.rarity = rarity;
+        this.priceOfNFT = priceOfNFT;
     }
 
     // Changes the price of NFT on a new day

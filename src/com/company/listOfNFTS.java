@@ -1,16 +1,19 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
-public class listOfNFTS {
+public class ListOfNFTS {
 
     // Instance Variables
     private ArrayList nftList = new ArrayList();
 
     // Constructor
-    public listOfNFTS(){
+    public ListOfNFTS(){
+    }
+
+    public ListOfNFTS(ArrayList nftList){
+        this.nftList = nftList;
     }
 
     public void sortNFT(ArrayList nftList, int choose){
